@@ -18,6 +18,8 @@
 		AB3509A418B7D6D1008CA934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB35098318B7D6D1008CA934 /* Cocoa.framework */; };
 		AB3509AC18B7D6D1008CA934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3509AA18B7D6D1008CA934 /* InfoPlist.strings */; };
 		AB3509AE18B7D6D1008CA934 /* AIAssignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509AD18B7D6D1008CA934 /* AIAssignment1Tests.m */; };
+		AB3509BD18B7DAC7008CA934 /* AIXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */; };
+		AB3509C018B81117008CA934 /* AISearchAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		AB3509A918B7D6D1008CA934 /* AIAssignment1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAssignment1Tests-Info.plist"; sourceTree = "<group>"; };
 		AB3509AB18B7D6D1008CA934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB3509AD18B7D6D1008CA934 /* AIAssignment1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAssignment1Tests.m; sourceTree = "<group>"; };
+		AB3509BB18B7DAC7008CA934 /* AIXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIXMLParser.h; path = "XML Parsing/AIXMLParser.h"; sourceTree = "<group>"; };
+		AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIXMLParser.m; path = "XML Parsing/AIXMLParser.m"; sourceTree = "<group>"; };
+		AB3509BE18B81117008CA934 /* AISearchAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISearchAlgorithms.h; sourceTree = "<group>"; };
+		AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISearchAlgorithms.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,11 @@
 		AB35098918B7D6D1008CA934 /* AIAssignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				AB3509BE18B81117008CA934 /* AISearchAlgorithms.h */,
+				AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */,
 				AB35099518B7D6D1008CA934 /* AIAppDelegate.h */,
 				AB35099618B7D6D1008CA934 /* AIAppDelegate.m */,
+				AB3509BA18B7D7FE008CA934 /* XML Parsing */,
 				AB35099818B7D6D1008CA934 /* MainMenu.xib */,
 				AB35099B18B7D6D1008CA934 /* Images.xcassets */,
 				AB35098A18B7D6D1008CA934 /* Supporting Files */,
@@ -152,6 +161,15 @@
 				AB3509AA18B7D6D1008CA934 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3509BA18B7D7FE008CA934 /* XML Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				AB3509BB18B7DAC7008CA934 /* AIXMLParser.h */,
+				AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */,
+			);
+			name = "XML Parsing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB35099718B7D6D1008CA934 /* AIAppDelegate.m in Sources */,
+				AB3509C018B81117008CA934 /* AISearchAlgorithms.m in Sources */,
+				AB3509BD18B7DAC7008CA934 /* AIXMLParser.m in Sources */,
 				AB35099018B7D6D1008CA934 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
