@@ -31,7 +31,6 @@
             return [self returnActionFromNode:n];
         [newNodes addObjectsFromArray:[n objectForKey:@"children"]];
     }
-    
     return [self findAction:action byBreadthFirstFromNodes:newNodes];
 }
 

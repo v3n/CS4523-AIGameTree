@@ -20,6 +20,7 @@
 		AB3509AE18B7D6D1008CA934 /* AIAssignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509AD18B7D6D1008CA934 /* AIAssignment1Tests.m */; };
 		AB3509BD18B7DAC7008CA934 /* AIXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */; };
 		AB3509C018B81117008CA934 /* AISearchAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */; };
+		AB68778618B85D8E00BB302A /* actionlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB68778518B85D8E00BB302A /* actionlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIXMLParser.m; path = "XML Parsing/AIXMLParser.m"; sourceTree = "<group>"; };
 		AB3509BE18B81117008CA934 /* AISearchAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISearchAlgorithms.h; sourceTree = "<group>"; };
 		AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISearchAlgorithms.m; sourceTree = "<group>"; };
+		AB68778418B85C4400BB302A /* AIAssignment1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AIAssignment1.entitlements; sourceTree = "<group>"; };
+		AB68778518B85D8E00BB302A /* actionlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = actionlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 		AB35098918B7D6D1008CA934 /* AIAssignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				AB68778518B85D8E00BB302A /* actionlist.txt */,
+				AB68778418B85C4400BB302A /* AIAssignment1.entitlements */,
 				AB3509BE18B81117008CA934 /* AISearchAlgorithms.h */,
 				AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */,
 				AB35099518B7D6D1008CA934 /* AIAppDelegate.h */,
@@ -220,6 +225,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jonathan Howard";
 				TargetAttributes = {
+					AB35097F18B7D6D1008CA934 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					AB3509A018B7D6D1008CA934 = {
 						TestTargetID = AB35097F18B7D6D1008CA934;
 					};
@@ -249,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB68778618B85D8E00BB302A /* actionlist.txt in Resources */,
 				AB35098E18B7D6D1008CA934 /* InfoPlist.strings in Resources */,
 				AB35099C18B7D6D1008CA934 /* Images.xcassets in Resources */,
 				AB35099418B7D6D1008CA934 /* Credits.rtf in Resources */,
@@ -404,6 +417,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AIAssignment1/AIAssignment1.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
@@ -417,6 +432,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AIAssignment1/AIAssignment1.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
@@ -485,6 +502,7 @@
 				AB3509B318B7D6D1008CA934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3509B418B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIAssignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +511,7 @@
 				AB3509B618B7D6D1008CA934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

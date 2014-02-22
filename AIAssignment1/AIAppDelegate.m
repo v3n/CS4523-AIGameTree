@@ -15,8 +15,10 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+        
+    // Create the File Open Dialog class.
     
-    NSDictionary *dict = [AIXMLParser parseXMLTreeFromString:@"<root><node behavior=\"Idle\" response=\"\"> \
+     self.dict = [AIXMLParser parseXMLTreeFromString:@"<root><node behavior=\"Idle\" response=\"\"> \
      <node behavior=\"\" response=\"Use Computer\"/> <node behavior=\"\" response=\"Patrol\"/> \
      </node> \
      <node behavior=\"Incoming Projectile\"> \
@@ -35,11 +37,45 @@
      </node> \
      </root> \
      "];
-    [dict attributeKeys];
+//    [self.dict attributeKeys];
     
-    NSLog(@"%@", [AISearchAlgorithms findAction:@"Combat" byDepthFirstFromNode:dict]);
-     NSLog(@"%@", [AISearchAlgorithms findAction:@"Ranged" byBreadthFirstFromNode:dict]);
+    NSLog(@"%@", [AISearchAlgorithms findAction:@"Combat" byDepthFirstFromNode:self.dict]);
+    NSLog(@"%@", [AISearchAlgorithms findAction:@"Ranged" byBreadthFirstFromNode:self.dict]);
     
+    NSOpenPanel* openDlg = [NSOpenPanel openPanel];
+
+    
+    // This method displays the panel and returns immediately.
+    // The completion handler is called when the user selects an
+    // item or cancels the panel.
+    [openDlg beginWithCompletionHandler:^(NSInteger result){
+        if (result == NSFileHandlingPanelOKButton) {
+            NSURL*  theDoc = [[openDlg URLs] objectAtIndex:0];
+            // Open  the document.
+            self.dict = [AIXMLParser parseXMLTreeFromString:[NSString stringWithContentsOfURL:theDoc]];
+        }
+        
+    }];
+
 }
+
+- (void)controlTextDidEndEditing:(NSNotification *)aNotification {
+    NSString *str = self.actionField.title;
+    NSString *result;
+    
+    if([str isEqualToString:@""]) return;
+    
+    if([self.depthButton state] == NSOnState)
+        result = [AISearchAlgorithms findAction:str byDepthFirstFromNode:self.dict];
+    else if([self.breadthButton state] == NSOnState)
+        result = [AISearchAlgorithms findAction:str byBreadthFirstFromNode:self.dict];
+
+    if (result != nil)
+        self.resultField.title = result;
+    else
+        self.resultField.title = @"";
+}
+
+
 
 @end
