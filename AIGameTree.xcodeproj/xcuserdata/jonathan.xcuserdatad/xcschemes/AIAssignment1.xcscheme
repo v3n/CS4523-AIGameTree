@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB35097F18B7D6D1008CA934"
-               BuildableName = "AIAssignment1.app"
-               BlueprintName = "AIAssignment1"
-               ReferencedContainer = "container:AIAssignment1.xcodeproj">
+               BuildableName = "AIGameTree.app"
+               BlueprintName = "AIGameTree"
+               ReferencedContainer = "container:AIGameTree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB3509A018B7D6D1008CA934"
                BuildableName = "AIAssignment1Tests.xctest"
-               BlueprintName = "AIAssignment1Tests"
-               ReferencedContainer = "container:AIAssignment1.xcodeproj">
+               BlueprintName = "AIGameTreeTests"
+               ReferencedContainer = "container:AIGameTree.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB35097F18B7D6D1008CA934"
-            BuildableName = "AIAssignment1.app"
-            BlueprintName = "AIAssignment1"
-            ReferencedContainer = "container:AIAssignment1.xcodeproj">
+            BuildableName = "AIGameTree.app"
+            BlueprintName = "AIGameTree"
+            ReferencedContainer = "container:AIGameTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB35097F18B7D6D1008CA934"
-            BuildableName = "AIAssignment1.app"
-            BlueprintName = "AIAssignment1"
-            ReferencedContainer = "container:AIAssignment1.xcodeproj">
+            BuildableName = "AIGameTree.app"
+            BlueprintName = "AIGameTree"
+            ReferencedContainer = "container:AIGameTree.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB35097F18B7D6D1008CA934"
-            BuildableName = "AIAssignment1.app"
-            BlueprintName = "AIAssignment1"
-            ReferencedContainer = "container:AIAssignment1.xcodeproj">
+            BuildableName = "AIGameTree.app"
+            BlueprintName = "AIGameTree"
+            ReferencedContainer = "container:AIGameTree.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

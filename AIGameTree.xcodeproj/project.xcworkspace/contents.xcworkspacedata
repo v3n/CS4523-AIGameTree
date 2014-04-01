@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AIAssignment1.xcodeproj">
+      location = "self:AIGameTree.xcodeproj">
    </FileRef>
 </Workspace>

@@ -14,39 +14,26 @@
 		AB35099718B7D6D1008CA934 /* AIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB35099618B7D6D1008CA934 /* AIAppDelegate.m */; };
 		AB35099A18B7D6D1008CA934 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB35099818B7D6D1008CA934 /* MainMenu.xib */; };
 		AB35099C18B7D6D1008CA934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB35099B18B7D6D1008CA934 /* Images.xcassets */; };
-		AB3509A318B7D6D1008CA934 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3509A218B7D6D1008CA934 /* XCTest.framework */; };
-		AB3509A418B7D6D1008CA934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB35098318B7D6D1008CA934 /* Cocoa.framework */; };
 		AB3509BD18B7DAC7008CA934 /* AIXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */; };
 		AB3509C018B81117008CA934 /* AISearchAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */; };
 		AB68778618B85D8E00BB302A /* actionlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB68778518B85D8E00BB302A /* actionlist.txt */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AB3509A518B7D6D1008CA934 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB35097818B7D6D1008CA934 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB35097F18B7D6D1008CA934;
-			remoteInfo = AIAssignment1;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		AB35098018B7D6D1008CA934 /* AIAssignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIAssignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB35098018B7D6D1008CA934 /* AIGameTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIGameTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB35098318B7D6D1008CA934 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AB35098618B7D6D1008CA934 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AB35098718B7D6D1008CA934 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AB35098818B7D6D1008CA934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB35098B18B7D6D1008CA934 /* AIAssignment1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAssignment1-Info.plist"; sourceTree = "<group>"; };
+		AB35098B18B7D6D1008CA934 /* AIGameTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIGameTree-Info.plist"; sourceTree = "<group>"; };
 		AB35098D18B7D6D1008CA934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB35098F18B7D6D1008CA934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB35099118B7D6D1008CA934 /* AIAssignment1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIAssignment1-Prefix.pch"; sourceTree = "<group>"; };
+		AB35099118B7D6D1008CA934 /* AIGameTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIGameTree-Prefix.pch"; sourceTree = "<group>"; };
 		AB35099318B7D6D1008CA934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		AB35099518B7D6D1008CA934 /* AIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAppDelegate.h; sourceTree = "<group>"; };
 		AB35099618B7D6D1008CA934 /* AIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAppDelegate.m; sourceTree = "<group>"; };
 		AB35099918B7D6D1008CA934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AB35099B18B7D6D1008CA934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB3509A118B7D6D1008CA934 /* AIAssignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIAssignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3509A218B7D6D1008CA934 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AB3509BB18B7DAC7008CA934 /* AIXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIXMLParser.h; path = "XML Parsing/AIXMLParser.h"; sourceTree = "<group>"; };
 		AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIXMLParser.m; path = "XML Parsing/AIXMLParser.m"; sourceTree = "<group>"; };
@@ -65,15 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB35099E18B7D6D1008CA934 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB3509A418B7D6D1008CA934 /* Cocoa.framework in Frameworks */,
-				AB3509A318B7D6D1008CA934 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,8 +67,7 @@
 		AB35098118B7D6D1008CA934 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB35098018B7D6D1008CA934 /* AIAssignment1.app */,
-				AB3509A118B7D6D1008CA934 /* AIAssignment1Tests.xctest */,
+				AB35098018B7D6D1008CA934 /* AIGameTree.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,10 +112,10 @@
 		AB35098A18B7D6D1008CA934 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB35098B18B7D6D1008CA934 /* AIAssignment1-Info.plist */,
+				AB35098B18B7D6D1008CA934 /* AIGameTree-Info.plist */,
 				AB35098C18B7D6D1008CA934 /* InfoPlist.strings */,
 				AB35098F18B7D6D1008CA934 /* main.m */,
-				AB35099118B7D6D1008CA934 /* AIAssignment1-Prefix.pch */,
+				AB35099118B7D6D1008CA934 /* AIGameTree-Prefix.pch */,
 				AB35099218B7D6D1008CA934 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -156,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB35097F18B7D6D1008CA934 /* AIAssignment1 */ = {
+		AB35097F18B7D6D1008CA934 /* AIGameTree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3509B118B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIAssignment1" */;
+			buildConfigurationList = AB3509B118B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIGameTree" */;
 			buildPhases = (
 				AB35097C18B7D6D1008CA934 /* Sources */,
 				AB35097D18B7D6D1008CA934 /* Frameworks */,
@@ -168,28 +145,10 @@
 			);
 			dependencies = (
 			);
-			name = AIAssignment1;
+			name = AIGameTree;
 			productName = AIAssignment1;
-			productReference = AB35098018B7D6D1008CA934 /* AIAssignment1.app */;
+			productReference = AB35098018B7D6D1008CA934 /* AIGameTree.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AB3509A018B7D6D1008CA934 /* AIAssignment1Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB3509B418B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIAssignment1Tests" */;
-			buildPhases = (
-				AB35099D18B7D6D1008CA934 /* Sources */,
-				AB35099E18B7D6D1008CA934 /* Frameworks */,
-				AB35099F18B7D6D1008CA934 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB3509A618B7D6D1008CA934 /* PBXTargetDependency */,
-			);
-			name = AIAssignment1Tests;
-			productName = AIAssignment1Tests;
-			productReference = AB3509A118B7D6D1008CA934 /* AIAssignment1Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -210,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB35097B18B7D6D1008CA934 /* Build configuration list for PBXProject "AIAssignment1" */;
+			buildConfigurationList = AB35097B18B7D6D1008CA934 /* Build configuration list for PBXProject "AIGameTree" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB35097F18B7D6D1008CA934 /* AIAssignment1 */,
-				AB3509A018B7D6D1008CA934 /* AIAssignment1Tests */,
+				AB35097F18B7D6D1008CA934 /* AIGameTree */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +200,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB35099F18B7D6D1008CA934 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,22 +214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB35099D18B7D6D1008CA934 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB3509A618B7D6D1008CA934 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB35097F18B7D6D1008CA934 /* AIAssignment1 */;
-			targetProxy = AB3509A518B7D6D1008CA934 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB35098C18B7D6D1008CA934 /* InfoPlist.strings */ = {
@@ -384,9 +320,9 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
-				INFOPLIST_FILE = "AIAssignment1/AIAssignment1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AIAssignment1/AIGameTree-Prefix.pch";
+				INFOPLIST_FILE = "AIAssignment1/AIGameTree-Info.plist";
+				PRODUCT_NAME = AIGameTree;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,53 +335,17 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
-				INFOPLIST_FILE = "AIAssignment1/AIAssignment1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AIAssignment1/AIGameTree-Prefix.pch";
+				INFOPLIST_FILE = "AIAssignment1/AIGameTree-Info.plist";
+				PRODUCT_NAME = AIGameTree;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		AB3509B518B7D6D1008CA934 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "AIAssignment1Tests/AIAssignment1Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AB3509B618B7D6D1008CA934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
-				INFOPLIST_FILE = "AIAssignment1Tests/AIAssignment1Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB35097B18B7D6D1008CA934 /* Build configuration list for PBXProject "AIAssignment1" */ = {
+		AB35097B18B7D6D1008CA934 /* Build configuration list for PBXProject "AIGameTree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3509AF18B7D6D1008CA934 /* Debug */,
@@ -454,20 +354,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3509B118B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIAssignment1" */ = {
+		AB3509B118B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIGameTree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3509B218B7D6D1008CA934 /* Debug */,
 				AB3509B318B7D6D1008CA934 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB3509B418B7D6D1008CA934 /* Build configuration list for PBXNativeTarget "AIAssignment1Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB3509B518B7D6D1008CA934 /* Debug */,
-				AB3509B618B7D6D1008CA934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
