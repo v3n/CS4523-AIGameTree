@@ -16,8 +16,6 @@
 		AB35099C18B7D6D1008CA934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB35099B18B7D6D1008CA934 /* Images.xcassets */; };
 		AB3509A318B7D6D1008CA934 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3509A218B7D6D1008CA934 /* XCTest.framework */; };
 		AB3509A418B7D6D1008CA934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB35098318B7D6D1008CA934 /* Cocoa.framework */; };
-		AB3509AC18B7D6D1008CA934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3509AA18B7D6D1008CA934 /* InfoPlist.strings */; };
-		AB3509AE18B7D6D1008CA934 /* AIAssignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509AD18B7D6D1008CA934 /* AIAssignment1Tests.m */; };
 		AB3509BD18B7DAC7008CA934 /* AIXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */; };
 		AB3509C018B81117008CA934 /* AISearchAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3509BF18B81117008CA934 /* AISearchAlgorithms.m */; };
 		AB68778618B85D8E00BB302A /* actionlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB68778518B85D8E00BB302A /* actionlist.txt */; };
@@ -50,9 +48,6 @@
 		AB35099B18B7D6D1008CA934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB3509A118B7D6D1008CA934 /* AIAssignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIAssignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3509A218B7D6D1008CA934 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AB3509A918B7D6D1008CA934 /* AIAssignment1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAssignment1Tests-Info.plist"; sourceTree = "<group>"; };
-		AB3509AB18B7D6D1008CA934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB3509AD18B7D6D1008CA934 /* AIAssignment1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAssignment1Tests.m; sourceTree = "<group>"; };
 		AB3509BB18B7DAC7008CA934 /* AIXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIXMLParser.h; path = "XML Parsing/AIXMLParser.h"; sourceTree = "<group>"; };
 		AB3509BC18B7DAC7008CA934 /* AIXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIXMLParser.m; path = "XML Parsing/AIXMLParser.m"; sourceTree = "<group>"; };
 		AB3509BE18B81117008CA934 /* AISearchAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISearchAlgorithms.h; sourceTree = "<group>"; };
@@ -86,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				AB35098918B7D6D1008CA934 /* AIAssignment1 */,
-				AB3509A718B7D6D1008CA934 /* AIAssignment1Tests */,
 				AB35098218B7D6D1008CA934 /* Frameworks */,
 				AB35098118B7D6D1008CA934 /* Products */,
 			);
@@ -146,24 +140,6 @@
 				AB35098F18B7D6D1008CA934 /* main.m */,
 				AB35099118B7D6D1008CA934 /* AIAssignment1-Prefix.pch */,
 				AB35099218B7D6D1008CA934 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AB3509A718B7D6D1008CA934 /* AIAssignment1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				AB3509AD18B7D6D1008CA934 /* AIAssignment1Tests.m */,
-				AB3509A818B7D6D1008CA934 /* Supporting Files */,
-			);
-			path = AIAssignment1Tests;
-			sourceTree = "<group>";
-		};
-		AB3509A818B7D6D1008CA934 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB3509A918B7D6D1008CA934 /* AIAssignment1Tests-Info.plist */,
-				AB3509AA18B7D6D1008CA934 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,9 +208,6 @@
 							};
 						};
 					};
-					AB3509A018B7D6D1008CA934 = {
-						TestTargetID = AB35097F18B7D6D1008CA934;
-					};
 				};
 			};
 			buildConfigurationList = AB35097B18B7D6D1008CA934 /* Build configuration list for PBXProject "AIAssignment1" */;
@@ -273,7 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3509AC18B7D6D1008CA934 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3509AE18B7D6D1008CA934 /* AIAssignment1Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,14 +303,6 @@
 				AB35099918B7D6D1008CA934 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		AB3509AA18B7D6D1008CA934 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB3509AB18B7D6D1008CA934 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,7 +409,6 @@
 		AB3509B518B7D6D1008CA934 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AIAssignment1.app/Contents/MacOS/AIAssignment1";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -460,7 +422,6 @@
 				);
 				INFOPLIST_FILE = "AIAssignment1Tests/AIAssignment1Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -468,7 +429,6 @@
 		AB3509B618B7D6D1008CA934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AIAssignment1.app/Contents/MacOS/AIAssignment1";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -478,7 +438,6 @@
 				GCC_PREFIX_HEADER = "AIAssignment1/AIAssignment1-Prefix.pch";
 				INFOPLIST_FILE = "AIAssignment1Tests/AIAssignment1Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

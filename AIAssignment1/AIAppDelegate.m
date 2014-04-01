@@ -18,32 +18,7 @@
         
     // Create the File Open Dialog class.
     
-     self.dict = [AIXMLParser parseXMLTreeFromString:@"<root><node behavior=\"Idle\" response=\"\"> \
-     <node behavior=\"\" response=\"Use Computer\"/> <node behavior=\"\" response=\"Patrol\"/> \
-     </node> \
-     <node behavior=\"Incoming Projectile\"> \
-     <node behavior=\"\" response=\"Evade\"/> \
-     </node> \
-     <node behavior=\"Combat\" response=\"\"> \
-     <node behavior=\"Melee\" response=\"\"> \
-     <node behavior=\"\" response=\"Flee\"/> \
-     <node behavior=\"\" response=\"Attack\"/> \
-     </node> \
-     <node behavior=\"Ranged\" response=\"\"> \
-     <node behavior=\"\" response=\"Weapon 1\"/> \
-     <node behavior=\"\" response=\"Weapon 2\"/> \
-     <node behavior=\"\" response=\"Weapon 3\"/> \
-     </node> \
-     </node> \
-     </root> \
-     "];
-//    [self.dict attributeKeys];
-    
-    NSLog(@"%@", [AISearchAlgorithms findAction:@"Combat" byDepthFirstFromNode:self.dict]);
-    NSLog(@"%@", [AISearchAlgorithms findAction:@"Ranged" byBreadthFirstFromNode:self.dict]);
-    
     NSOpenPanel* openDlg = [NSOpenPanel openPanel];
-
     
     // This method displays the panel and returns immediately.
     // The completion handler is called when the user selects an
